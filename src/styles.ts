@@ -1,4 +1,4 @@
-import { createGlobalStyle  } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 export const colors = {
     beige: '#FFEBD9',
@@ -40,6 +40,4 @@ const GlobalStyle = createGlobalStyle`
     }
 `
 
-
-
-export default GlobalStyle
+export default GlobalStyle as any
